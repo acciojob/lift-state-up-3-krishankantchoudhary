@@ -12,7 +12,7 @@ const App = () => {
   }
 
   return (
-    <div style={{backgroundColor:"#32CD32"}}>
+    <div className="parent">
         <h1>Parent Component</h1>
         <ChildComponent1 onSelect={handleselect}/>
         <ChildComponent2 onSelect={handleselect}/>
